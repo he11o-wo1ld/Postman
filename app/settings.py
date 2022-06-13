@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # 'django_email_verfication',
 
     'django.contrib.sites',
     'allauth',
@@ -153,3 +154,17 @@ SOCIALACCOUNT_PROVIDERS = {
         }
     }
 }
+
+
+# # Email Verification
+# EMAIL_ACTIVE_FIELD = 'is_active'
+# EMAIL_SERVER = 'smtp.digitalprizm.net'
+# EMAIL_PORT = 587
+# EMAIL_ADDRESS = 'smtp.digitalprizm.net'
+# EMAIL_FROM_ADDRESS = 'smtp.digitalprizm.net'
+# EMAIL_PASSWORD = 'smtp.digitalprizm.net'
+# EMAIL_MAIL_SUBJECT = 'Confirm Your Email Address'
+# EMAIL_MAIL_HTML = 'mail_body.html'
+# EMAIL_MAIL_PLAIN = 'mail_body.plain'
+# EMAIL_PAGE_TEMPLATE = 'confirm_template.html'
+# EMAIL_PAGE_DOMAIN = 'http://mydomain.com'
